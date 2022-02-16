@@ -1,5 +1,5 @@
 {% set name = "itpminer" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 253d6a6a22f172412566225b4068bcf281591ee23693966da7ccf18d010a14de
+  sha256: 5901bbee36f5970c31599ac6b9b4832c9d47e77cc710a838fd4eae0b2aae9049
 
 build:
   number: 0
